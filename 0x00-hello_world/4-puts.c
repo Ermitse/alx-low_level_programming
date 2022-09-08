@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char string;	/*declaring a char*/
+	char string[70];	/*declaring a char*/
 
 	strcpy(string, "Programming is like building a multilingual puzzle");
 
