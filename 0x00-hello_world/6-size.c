@@ -19,9 +19,9 @@ int main(void)
 
 	char charType;
 
-	printf("Size of char: %d bytes\n", sizeof(charType));
+	printf("Size of char: %c bytes\n", sizeof(charType));
 
-	printf("Size of int: %f bytes\n", sizeof(intType));
+	printf("Size of int: %d bytes\n", sizeof(intType));
 
 	printf("Size of long: %zu bytes\n", sizeof(longType));
 
