@@ -9,9 +9,9 @@ int main(void)
 {
 	int intType;
 
-	long long longlongtype;
+	long long longlongType;
 
-	long longtype;
+	long longType;
 
 	float floatType;
 
@@ -25,7 +25,7 @@ int main(void)
 
 	printf("Size of long: %zu bytes\n", sizeof(longType));
 
-	printf("size of long long %zu byte(s)\n", sizeof(longlongtype));
+	printf("size of long long %zu byte(s)\n", sizeof(longlongType));
 
 	printf("Size of float: %zu byte\n", sizeof(floatType));
 
