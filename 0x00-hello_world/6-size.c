@@ -19,15 +19,15 @@ int main(void)
 
 	char charType;
 
-	printf("Size of char: %zu bytes(s)\n", sizeof(charType));
+	printf("Size of a char: %zu bytes(s)\n", sizeof(charType));
 
 	printf("Size of an int: %d bytes(s)\n", sizeof(intType));
 
-	printf("Size of long int: %zu bytes(s)\n", sizeof(longType));
+	printf("Size of a long int: %zu bytes(s)\n", sizeof(longType));
 
-	printf("size of long long int: %zu byte(s)\n", sizeof(longlongType));
+	printf("size of a long long int: %zu byte(s)\n", sizeof(longlongType));
 
-	printf("Size of float: %zu byte(s)\n", sizeof(floatType));
+	printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
 
 	return (0);
 }
