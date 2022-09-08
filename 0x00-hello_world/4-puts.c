@@ -10,9 +10,8 @@ int main(void)
 {
 	char string[70];	/*declaring a char*/
 
-	strcpy(string, "Programming is like building a multilingual puzzle");
+	strcpy(string, ""Programming is like building a multilingual puzzle");
 
 	puts(string);	/*prints the char stored in string*/
-
-	    return (0);
+	return (0);
 }
