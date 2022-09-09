@@ -13,8 +13,7 @@
  *
  */
 
-int main(void)
-/*main - Entry point */
+int main(void)		/*main - Entry point */
 {
 
 	int n;
