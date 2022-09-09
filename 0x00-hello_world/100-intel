@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -maS $CFILE > ${CFILE}".s"
+gcc -maS $CFILE > ${CFILE::}".s"
