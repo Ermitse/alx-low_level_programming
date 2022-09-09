@@ -4,15 +4,15 @@
 
 #include <stdio.h>
 
-
 /**
- * main - Entry point
+ * main - ENtry point
  *
- * return: 0 (success)
+ * Return: 0
  *
  */
 
-int main(void)		/*main - Entry point */
+
+int main(void)
 {
 
 	int n;
