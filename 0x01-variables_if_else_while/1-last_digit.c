@@ -9,7 +9,7 @@
 /**
  * main - Entry point
  *
- * Rerutn: 0
+ * return: 0
  *
  */
 
