@@ -18,8 +18,8 @@ int main(void)
 	{
 	if (n != m)
 	{
-	putchar(n);
-	putchar(m);
+	putchar(n + '0');
+	putchar(m + '0');
 	putchar(',');
 	putchar(' ');
 	}
