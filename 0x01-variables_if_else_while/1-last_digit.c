@@ -10,6 +10,7 @@
  * main - Entry point
  *
  * Rerutn: 0
+ *
  */
 
 int main(void)
