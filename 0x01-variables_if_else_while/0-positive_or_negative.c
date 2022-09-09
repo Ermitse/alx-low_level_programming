@@ -8,7 +8,7 @@
 /**
  * main - Entry point
  *
- * return 0 (success)
+ * return: 0 (success)
  *
  */
 
