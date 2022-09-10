@@ -22,7 +22,7 @@ int main(void)
 	{
 	putchar(m + '0');
 	putchar(n + '0');
-	putchar(o + 'o');
+	putchar(o + '0');
 
 	if (m != 7)
 	{
