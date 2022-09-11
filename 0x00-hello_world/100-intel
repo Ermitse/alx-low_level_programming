@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -maS $CFILE > ${CFILE::}".s"
+gcc -masm=intel $CFILE -S > $(echo$
+CFILE | cut -d".").s
