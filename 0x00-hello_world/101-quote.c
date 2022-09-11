@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main entry point
+ * main - print to string
  *
- * return 0 sucess
+ * return:1
  */
 int main(void)
 {
