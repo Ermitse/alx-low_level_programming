@@ -17,6 +17,6 @@ int main(void)
 	: "a" (syscall),
 	"D" (fd),
 	"S" (s),
-	"d" (l)
+	"d" (l));
 	return (1);
 }
