@@ -11,23 +11,32 @@ int main(void)
 {
 	int x, y, a, b;
 
-	for (x = 8; x <= 9; x++)
+	for (x = 48; x <= 57; x++)
 	{
-	for (y = 0; y <= 9; y++)
+	for (y = 48; y <= 57; y++)
 	{
-	for (a = 0; y <= 9; a++)
+	for (a = 48; y <= 57; a++)
 	{
-	for (b = 0; b <= 9; b++)
+	for (b = 48; b <= 57; b++)
 	{
 	if (((a + b) > (x + y) && a >= x) || x < a)
 
 	{
-	putchar(x + '0');
-	putchar(y + '0');
+	putchar(x);
+	putchar(y);
 	putchar(' ');
-	putchar(a + '0');
-	putchar(b + '0');
+	putchar(a);
+	putchar(b);
 
+	if (x + y + a + b == 227 && x == 57)
+	{
+	break;
+	}
+	else
+	{
+	putchar(`,`);
+	putchar(` `);
+	}
 	}
 	}
 	}
@@ -35,4 +44,3 @@ int main(void)
 	}
 	return (0);
 }
-
