@@ -9,37 +9,24 @@
 
 int main(void)
 {
-	int x, y, a, b;
+	int x, y
 
-	for (x = 48; x <= 57; x++)
+	for (x = 0; x <= 98; x++)
 	{
-	for (y = 48; y <= 57; y++)
+	for (y = x + 1; y <= 99; y++)
 	{
-	for (a = 48; y <= 57; a++)
-	{
-	for (b = 48; b <= 57; b++)
-	{
-	if (((a + b) > (x + y) && a >= x) || x < a)
 
-	{
-	putchar(x);
-	putchar(y);
+	putchar((x / 10) + '0');
+	putchar((x % 10) + '0');
 	putchar(' ');
-	putchar(a);
-	putchar(b);
+	putchar((y / 10) + '0');
+	putchar((y % 10) + '0');
 
-	if (x + y + a + b == 227 && x == 57)
-	{
-	break;
-	}
-	else
-	{
+	if (x == 98 && y == 99)
+
+	continue;
 	putchar(',');
 	putchar(' ');
-	}
-	}
-	}
-	}
 	}
 	}
 	putchar('\n');
