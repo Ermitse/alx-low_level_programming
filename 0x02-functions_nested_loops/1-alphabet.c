@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints alphabets
  *
- * Return: Always 0 (success)
+ * Return: void
  *
  */
 
@@ -13,6 +13,6 @@ void print_alphabet(void)
 
 	for (lc = 'a' ; lc <= 'z'; lc++)
 	_putchar(lc);
-	_putchar(lc);
+	_putchar('\n');
 	return;
 }
