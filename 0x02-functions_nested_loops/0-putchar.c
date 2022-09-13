@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	
+	char c, h, a, r, p, u, t, _;
+
 	_putchar(_);
 	_putchar(p);
 	_putchar(u);
