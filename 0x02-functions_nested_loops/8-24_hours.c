@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * jack__bauer - Entry point
+ * jack_bauer - Entry point
  *
  * Return: no return
  *
  */
 void jack_bauer(void)
 {
-	
+
 	int m, n;
+
 	for (n = 0; n < 24; n++)
 	{
 		for (m = 0; m < 60; m++)
