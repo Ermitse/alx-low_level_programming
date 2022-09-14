@@ -2,7 +2,6 @@
 /**
  * print_times_table - prints mult
  * @n: numb to
- *
  * Return: numb matrix
  */
 void print_times_table(int p)
@@ -36,14 +35,12 @@ void print_times_table(int p)
 				{
 					if (y != 0)
 					{
-
 					_putchar(',');
 					_putchar(32);
 					_putchar(32);
 					_putchar(32);
 					}
-				
-				_putchar(z + '0');
+					_putchar(z + '0');
 				}
 
 			}
