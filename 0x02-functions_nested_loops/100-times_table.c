@@ -4,7 +4,7 @@
  * @n: numb to
  * Return: numb matrix
  */
-void print_times_table(int p)
+void print_times_table(int n)
 {
 	int x, y, z;
 
