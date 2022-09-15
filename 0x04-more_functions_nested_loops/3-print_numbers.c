@@ -2,12 +2,12 @@
 
 /**
  * print_numbers - prints num
- * Return: Always 0 
+ * Return: Always 0
  */
 
 void print_numbers(void)
 {
-	int i;
+	char i;
 
 	for (i = 0; i <= 9; i++)
 	{
