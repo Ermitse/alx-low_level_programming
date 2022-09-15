@@ -2,7 +2,8 @@
 
 /**
  * mul - multiplies num
- * @a @b: int in
+ * @a: int in 
+ * @b: int in
  * Return: ret value
  */
 
