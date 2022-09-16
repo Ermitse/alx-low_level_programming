@@ -3,11 +3,14 @@
 /**
  * more_numbers - prints mor num
  *
+ * Return: void
  */
 
 void more_numbers(void)
 {
-	int i, j, c;
+	int i, 
+
+	char j, c;
 
 	for (i = 0; i <= 10; i++)
 	{
