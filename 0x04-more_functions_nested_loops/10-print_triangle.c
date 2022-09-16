@@ -10,7 +10,7 @@ void print_triangle(int size)
 {
 	int i = 1, k;
 
-	while (i <= k && k > 0)
+	while (i <= size && size > 0)
 	{
 		k = 0;
 		while (k < size - 1)
