@@ -2,13 +2,13 @@
 
 /**
 * convert_day - converts day of month to day of year, without accounting
-*
-* @month: month in number format
-* @day: day of month
-* Return: day of year
+* @day: days
+* @month: month in number format @day: day of month Return: day of year
+* Return: val
 */
 
 int convert_day(int month, int day)
+
 {
 	switch (month)
 	{
