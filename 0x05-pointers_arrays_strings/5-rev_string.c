@@ -12,6 +12,7 @@ void rev_string(char *s)
 	char t;
 
 	for (n = 0; s[n] != '\0'; n++)
+	
 	i = 0;
 	h = n / 2;
 
