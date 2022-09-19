@@ -2,7 +2,7 @@
 #include<string.h>
 /**
  * puts2 - entry
- * str: string
+ * @str: string
  * Return: void
  */
 
