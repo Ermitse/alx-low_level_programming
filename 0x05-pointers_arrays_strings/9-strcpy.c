@@ -4,7 +4,7 @@
 /**
  * *_strcpy - entry
  * @dest: char
- * @@src: char
+ * @src: char
  * Return: val
  */
 
