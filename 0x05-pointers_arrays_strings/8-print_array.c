@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; a[i] <= n; i++)
 	{
-		printf("%p", a[i]);
+		printf("%s", a[i]);
 		printf(", ");
 	}
 }
