@@ -13,7 +13,7 @@ int _atoi(char *s)
 
 	do {
 
-		if (*s == '_')
+		if (*s == '-')
 			sign *= -1;
 
 		else if (*s >= '0' && *s <= '9')
