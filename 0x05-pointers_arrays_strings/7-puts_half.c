@@ -2,14 +2,14 @@
 #include<string.h>
 
 /**
- * puts_halfputs_half - entry
+ * puts_half - entry
  * @str: char
  * Return: void
  */
 
 void puts_half(char *str)
 {
-	int j, k;
+	int j, k, i;
 
 	j = strlen(str);
 	k = j / 2;
@@ -22,7 +22,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (i = (j - 1)/2; i <= j; i++)
+		for (i = (j - 1) / 2; i <= j; i++)
 		{
 			_putchar(str[i]);
 		}
