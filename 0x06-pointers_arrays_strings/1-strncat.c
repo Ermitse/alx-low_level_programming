@@ -20,8 +20,8 @@ char *_strncat(char *dest, char *src, int n)
 		if (src[j] = '\0')
 		{
 			j--;
-		}
 		dest[i] = src[j];
+		}
 	}
 	return (dest);
 }
