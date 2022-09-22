@@ -6,7 +6,7 @@
  * Return: val
  */
 
-char *cap_string(char *)
+char *cap_string(char *x)
 {
 	int i;
 
