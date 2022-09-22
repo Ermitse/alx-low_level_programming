@@ -6,7 +6,7 @@
  * Return: val
  */
 
-char *cap_string(char *x)
+char *cap_string(char *s)
 {
 	int count = 0, i;
 	int separators[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
