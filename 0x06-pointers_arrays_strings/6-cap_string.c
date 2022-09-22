@@ -2,7 +2,7 @@
 
 /**
  * cap_string - capitaliza
- * @x: string
+ * @s: string
  * Return: val
  */
 
