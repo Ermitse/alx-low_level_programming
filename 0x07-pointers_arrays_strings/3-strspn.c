@@ -16,9 +16,9 @@ unsigned int _strspn(char *s, char *accept)
 	str1 = s;
 	str2 = accept;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str1[i] != '\0'; i++)
 	{
-		for (j = 0; str[j] != '\0'; j++)
+		for (j = 0; str2[j] != '\0'; j++)
 		{
 			if (str2[j] == str1[i])
 			{
