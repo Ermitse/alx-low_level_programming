@@ -4,7 +4,7 @@
  * _memcpy - copies val from mem
  * @dest: dest for cpy
  * @src: mem plc
- * @n: int 
+ * @n: int
  * Return: returns val
  *
  */
