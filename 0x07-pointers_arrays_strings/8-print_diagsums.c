@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * print_diagsum - prints 
+ * print_diagsums - prints
  * @a: val
  * @size: size
  * Return: val
