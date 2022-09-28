@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - sqrroot of n
- * _sqrt - find square
+ * _sqrt - find sqrt
+ *
  * @i: int
  * @n: int
  * Return: ret val
@@ -21,6 +21,12 @@ int _sqrt(int i, int n)
 	}
 	return (-1);
 }
+/**
+ * _sqrt_recursion - sqrt of n
+ * @n: int
+ * Return: ret val
+ */
+
 int _sqrt_recursion(int n)
 {
 	int i = 0;
