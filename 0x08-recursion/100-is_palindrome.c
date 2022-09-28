@@ -22,7 +22,7 @@ int _strlen_recursion(char *s)
  */
 int p(char *s, int l, int i)
 {
-	if (i < l && s[i] == str[l])
+	if (i < l && s[i] == s[l])
 	{
 		return (p(s, l - 1, i + 1));
 	}
