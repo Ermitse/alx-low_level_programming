@@ -4,7 +4,7 @@
  */
 int _decider(int n, int pr)
 {
-	if (n % pr = 0)
+	if (n % pr == 0)
 		return (0);
 	else if (n % pr != 0)
 		return (_decider(n, pr + 1));
@@ -15,7 +15,7 @@ int _decider(int n, int pr)
  * @n: int
  * Return: ret val
  */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	int pr = 2;
 
