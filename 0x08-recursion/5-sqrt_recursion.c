@@ -5,9 +5,8 @@
  * @n: int
  * Return: ret val
  */
-int _sqrt_recursion(int n)
+int _sqrt(int i, int n)
 {
-	int i;
 
 	if (n == 1 && n == 0)
 		return (n);
@@ -16,6 +15,15 @@ int _sqrt_recursion(int n)
 
 	else if (i * i = n)
 		return (i);
-	else if (i * i != n)
-		return ((i + 1)(i + 1) = _sqrt_recursion(n));
+	else if (i * i < n)
+		return (_sqrt(i + 1, n));
+}
+int _sqrt_recursion(int n)
+{
+	int i = 0;
+
+	if (i < 0)
+		return (-1);
+	else
+		return (_sqrt(i, n));
 }
