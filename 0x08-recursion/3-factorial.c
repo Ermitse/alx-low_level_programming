@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ * factorial - factorial of number
+ * @n: int
+ * Return: return val
  */
 int factorial(int n)
 {
@@ -12,7 +14,7 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	else 
+	else
 	{
 		return (n * factorial(n - 1));
 	}
