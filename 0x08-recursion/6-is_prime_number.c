@@ -1,17 +1,22 @@
 #include "main.h"
 /**
- *
+ * _decider - decide
+ * @n: int
+ * @pr: int
+ * Return: val
  */
 int _decider(int n, int pr)
 {
-	if (n % pr == 0)
+	if (pr == n - 1)
+		return (1);
+	else if (n % pr == 0)
 		return (0);
 	else if (n % pr != 0)
 		return (_decider(n, pr + 1));
 	return (0);
 }
 /**
- * is_prime_number - prrime 
+ * is_prime_number - prrime
  * @n: int
  * Return: ret val
  */
