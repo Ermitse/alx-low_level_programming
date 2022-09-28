@@ -8,15 +8,16 @@
 int _sqrt(int i, int n)
 {
 
-	if (n == 1 && n == 0)
-		return (n);
-	else if (n < 0)
-		return (-1):
+	if (n < 0)
+		return (-1);
 
 	else if (i * i = n)
 		return (i);
 	else if (i * i < n)
+	{
 		return (_sqrt(i + 1, n));
+	}
+	return (-1);
 }
 int _sqrt_recursion(int n)
 {
