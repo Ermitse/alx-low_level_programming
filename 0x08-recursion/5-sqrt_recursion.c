@@ -2,6 +2,8 @@
 
 /**
  * _sqrt_recursion - sqrroot of n
+ * _sqrt - find square
+ * @i: int
  * @n: int
  * Return: ret val
  */
