@@ -19,9 +19,9 @@ int is_prime_number(int n)
 {
 	int pr = 2;
 
-	if (num < 2)
+	if (n < 2)
 		return (0);
-	if (num == 2)
+	if (n == 2)
 		return (1);
 	return (_decider(n, pr));
 }
