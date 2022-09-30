@@ -6,7 +6,7 @@
  * @argv: array arg
  * Return: ret val
  */
-int  main(int argc,char *argv[])
+int  main(int argc, char *argv[])
 {
 	int count = 0;
 
