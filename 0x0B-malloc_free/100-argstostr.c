@@ -9,10 +9,11 @@
 char *argstostr(int ac, char **av)
 {
 	char *ma;
-	int i, j, k, m;;
+	int i, j, k, m;
 
-	if ( ac == 0)
+	if (ac == 0)
 		return (NULL);
+
 	for (k = i = 0; i < ac; i++)
 	{
 		if (av[i] == NULL)
@@ -28,7 +29,7 @@ char *argstostr(int ac, char **av)
 		free(ma);
 		return (NULL);
 	}
-	for (i = j = m = 0; m < k; k++)
+	for (i = j = m = 0; m < k; j++)
 	{
 		if (av[i][j] == '\0')
 		{
