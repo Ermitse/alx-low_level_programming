@@ -18,17 +18,17 @@ char *argstostr(int ac, char **av)
 		if (av[i] == NULL)
 			return (NULL);
 		for (j = 0; av[i][j] != '\0'; j++)
-			c++;
-		c++;
+			k++;
+		k++;
 	}
 
 	ma = malloc(sizeof(char) * (k + 1));
 	if (ma == 0)
 	{
-		free(m);
+		free(ma);
 		return (NULL);
 	}
-	for (i = j= m = 0; m < k; k++)
+	for (i = j = m = 0; m < k; k++)
 	{
 		if (av[i][j] == '\0')
 		{
