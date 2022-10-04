@@ -24,12 +24,12 @@ char *argstostr(int ac, char **av)
 	}
 
 	ma = malloc(sizeof(char) * (k + 1));
-	if (ma == 0)
+	if (ma == NULL)
 	{
 		free(ma);
 		return (NULL);
 	}
-	for (i = j = m = 0; m < k; j++)
+	for (i = j = m = 0; m < k; j++, m++)
 	{
 		if (av[i][j] == '\0')
 		{
