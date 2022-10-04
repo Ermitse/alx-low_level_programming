@@ -2,7 +2,9 @@
 #include <stdlib.h>
 /**
  * free_grid - grid
- * @
+ * @grid: grid of array
+ * @height: of array
+ * Return: void
  */
 void free_grid(int **grid, int height)
 {
