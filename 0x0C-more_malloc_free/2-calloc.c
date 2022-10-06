@@ -1,5 +1,24 @@
 #include "main.h"
 #include<stdlib.h>
+#include<limits.h>
+/**
+ * _memset - set memory
+ * @c: char mal
+ * @b: set
+ * @n: size
+ * Return: ret val
+ */
+char *_memset(char *c, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		c[i] = b;
+	}
+	return (c);
+}
+
 /**
  * _calloc
  * @nmemb: set mem
@@ -16,7 +35,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	m = malloc(nmemb * size);
 	if (m == 0)
 		return (NULL);
-	for (int i = 0; i < (nmemb * size); i++)
-		p[i] = 0;
+	_memset(m, 0, (nmemb * size));
 	return (m);
 }
