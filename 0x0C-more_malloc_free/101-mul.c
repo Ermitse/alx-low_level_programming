@@ -9,13 +9,15 @@ int _atoi_digit(char x)
 {
 	unsigned int res;
 
-	if (x <= '9' && x>= '0')
+	if (x <= '9' && x >= '0')
 		res = x - '0';
 	return (res);
 }
 
 /**
- *
+ * _isNumber - num
+ * @argv: argument
+ * Return: ret val
  */
 int _isNumber(char *argv)
 {
@@ -27,7 +29,10 @@ int _isNumber(char *argv)
 	return (0);
 }
 /**
- *
+ * _calloc - assign mem
+ * @nmemb: size
+ * @size: size
+ * Return: void
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -58,7 +63,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	k = lena;
 	for (i = len1 - 1; i >= 0; i--)
 	{
-		mul += (a1[i] - '0') * (a2 - '0') + (a3[k]- '0');
+		mul += (a1[i] - '0') * (a2 - '0') + (a3[k] - '0');
 		a3[k] = (mul % 10) + '0';
 		mul /= 10;
 		k--;
@@ -73,7 +78,10 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	return (a3);
 }
 /**
- *
+ * print_array - print array
+ * @a: char
+ * @nb: int
+ * Return: void
  */
 void print_array(char *a, int nb)
 {
@@ -90,7 +98,10 @@ void print_array(char *a, int nb)
 	_putchar('\n');
 }
 /**
- *
+ * main - entry
+ * @argc: arg count
+ * @argv: vector
+ * Return: val
  */
 int main(int argc, char *argv[])
 {
@@ -101,11 +112,11 @@ int main(int argc, char *argv[])
 
 	if (argc != 3 || _isNumber(argv[1]) == 1 || _isNumber(argv[2]) == 1)
 	{
-			for (i = 0; i < 6; i++)
-			{
+		for (i = 0; i < 6; i++)
+		{
 			_putchar(E[i]);
-			}
-			exit(98);
+		}
+		exit(98);
 	}
 	for (len1 = 0; argv[1][len1]; len1++)
 		;
