@@ -20,7 +20,7 @@ char *_memset(char *c, char b, unsigned int n)
 }
 
 /**
- * _calloc
+ * _calloc - calloc arr
  * @nmemb: set mem
  * @size: int size
  * Return: void
