@@ -1,11 +1,12 @@
 #include "dog.h"
+#include<stdio.h>
 #include<stdlib.h>
 /**
- * new_dog - new
+ * new_dog - new dog add
  * @name: name
  * @age: age
  * @owner: owner n
- * Return; ret
+ * Return: ret
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -16,7 +17,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		i++;
 	while (owner[j] != '\0')
 		j++;
-	alice = malloc(sizeof(alice));
+	alice = malloc(sizeof(dog_t));
 	if (alice == NULL)
 	{
 		free(alice);
