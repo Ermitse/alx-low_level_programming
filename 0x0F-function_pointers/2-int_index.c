@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 /**
  * int_index - search for int
- * @array: array to search 
+ * @array: array to search
  * @size: size of array
  * @cmp: point to comparing func
- * Retrun: returns index of first int
+ * Return: returns index of first int
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
