@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints
- * h: param list
+ * @h: param list
  * Return: node or o
  */
 size_t print_list(const list_t *h)
