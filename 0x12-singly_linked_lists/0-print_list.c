@@ -5,9 +5,9 @@
  * h: param list
  * Return: node or o
  */
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
-	size_t node1
+	size_t node1;
 
 	node1 = 0;
 	while (h != NULL)
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h);
 		node1++;
 	}
 	return (node1);
-}
+
 }
