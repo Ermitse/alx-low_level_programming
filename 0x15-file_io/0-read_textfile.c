@@ -1,5 +1,5 @@
 #include <main.h>
-
+#include <stdlib.h>
 /**
  * read_textfile - reads a text file
  * @filename: name of file
