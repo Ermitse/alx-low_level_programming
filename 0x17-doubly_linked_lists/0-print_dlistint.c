@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /*
  * print_distinct - prints elements
  * @h: head
